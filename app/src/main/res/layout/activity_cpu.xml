@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cpu">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPU"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Pengertian"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="CPU yang merupakan singkatan dari Central Processing Unit adalah komponen keras atau perangkat hardware pemroses data utama dalam sebuah komputer. CPU dapat disebut sebagai otak komputer karena CPU mengatur semua aktifitas dan jalannya semua program termasuk aplikasi atau software di dalamnya.
+
+Apapun itu semua hal yang berkaitan dengan proses dalam komputer baik suatu proses yang sepele sekalipun akan selalu diatur oleh CPU. Misalnya saat Anda menekan tombol huruf “H” pada keyboard saat mengetik, huruf “H” tersebut akan muncul di layar, CPU lah yang memungkinkan hal itu terjadi. Dengan demikian, tanpa adanya CPU dalam komputer maka komputer tidak akan bisa melakukan apapun atau komputer tidak dapat menjalankan programnya.
+
+CPU secara teknis juga lebih sering disebut sebagai prosesor, oleh karena itu saat membaca dan mengenali spesifikasi suatu prosesor maka sebenarnya Anda sedang membaca spesifikasi CPU suatu perangkat."
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="FUngsi"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Fungsi utama dari CPU adalah melakukan operasi aritmatika dan logika terhadap data yang diambil dari memori atau dari informasi yang diberikan melalui beberapa perangkat keras. CPU hampir sama seperti kalkulator, hanya saja CPU jauh lebih kompleks dalam melakukan pemrosesan dari intruksi-intruksi yang diberikan. Instruksi-instruksi tersebut kemudian disimpan terlebih dahulu pada RAM, setiap instruksi akan diberi alamat unik yang disebut alamat memori. Selanjutnya, CPU dapat mengakses data-data pada RAM dengan menentukan alamat data yang dipilih."
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

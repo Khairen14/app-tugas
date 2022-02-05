@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="tugas_akhir_rendy">List Pheriperal PC</string>
+    <string name="todo">TODO</string>
+    <string name="cpu">CPU</string>
+    <string name="hdd">HDD</string>
+    <string name="ram">RAM</string>
+    <string name="mobo">MOBO</string>
+</resources>
